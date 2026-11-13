@@ -1,0 +1,19 @@
+{
+  "project": "https://github.com/MPZ-00/voe-dl",
+  "commit": "b82c920d96f12fb047f7d0ccc4223f6dc08e0578",
+  "unmodified_files": {
+    "voe_dl/bait.py": "52419fc22984a14b5c9e71cb293dc715ee345e454a1f378fee63fcff72b6f7b9",
+    "voe_dl/decoding.py": "14e0526374031d8c8f1053adbf0711636d0c676c843f8b3293d8e26e697e908a",
+    "voe_dl/sources/__init__.py": "b0940474916d6e8f8e2abf0c63044700b38882cea3099e9830b806048c47e158",
+    "voe_dl/sources/iframe_fallback.py": "e82dd2ab1df01dabdc2197538a92c626fc434c99edc640d64e98f225b181e000",
+    "voe_dl/sources/method1_var_sources.py": "844da4440965853f7df3ee56b60b6d9f247579c97b9553d5265f06daddffcdea",
+    "voe_dl/sources/method2_script_patterns.py": "d3b4c83545b5d1f3516e32f5907149c532440b46d7207e92aa711713950d8b15",
+    "voe_dl/sources/method3_video_tags.py": "4b5dac78ef82cadeb4c4b011c8535d59b37fff37d2393c2b160209990fa8097a",
+    "voe_dl/sources/method4_regex_urls.py": "79d999a186b2b4974dde7943601fab9c799119426ac91b8dd61f717544a19fe9",
+    "voe_dl/sources/method5_base64_blobs.py": "e09cb0b63a828638c107fd09240255d4a7becbf67da1d5d3004fa6bd06e70746",
+    "voe_dl/sources/method6_a168c.py": "eca38099fd01b4c5402ea828ff8c377790d0c79d3378bc3b5c64f610120e482f",
+    "voe_dl/sources/method7_mkgma.py": "eefa0c1d1cc46908dc0680c1bc592154c77cc6314550cde95ec88dab4d335a26",
+    "voe_dl/sources/method8_obfuscated_json.py": "ebe3f54a29b686405fbd812a211dc47e2625e4e0f6cadb127b635689dcd2c07f"
+  },
+  "modified_file": "voe_dl/__init__.py removes CLI stdout side effect"
+}

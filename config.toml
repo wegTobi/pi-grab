@@ -1,0 +1,9 @@
+# PiGrab — reine Daten, kein auszuführender Konfigurationscode.
+storage = "~/Videos/PiGrab"
+home_country = "DE"
+home_country_names = ["Germany", "Deutschland"]
+blocked_orgs = ["Deutsche Telekom", "Vodafone", "1&1", "Telefónica", "Unitymedia"]
+allowed_patterns = ["Proton", "M247", "Datacamp", "WorldStream"]
+probe_url = "https://download.samplelib.com/mp4/sample-5s.mp4"
+download_timeout_sec = 3600
+voe_hosts = ["voe.sx", "susanexpectcare.com", "shannoncoldalready.com"]

@@ -1,0 +1,25 @@
+# Python
+__pycache__/
+*.py[cod]
+
+# Local runtime state and incomplete downloads
+.state/
+.work/
+*.part
+*.ytdl
+*.sqlite
+*.sqlite-*
+
+# VPN credentials and local configuration
+*.conf
+*.ovpn
+.env
+.env.*
+!config.toml
+
+# Test and editor artifacts
+.pytest_cache/
+.coverage
+*.log
+.vscode/
+.idea/

@@ -1,0 +1,56 @@
+test_firewall_default_drop_and_no_physical_interface (test_admin.TestAdmin.test_firewall_default_drop_and_no_physical_interface) ... ok
+test_hooks_host_dns_and_split_routes_rejected (test_admin.TestAdmin.test_hooks_host_dns_and_split_routes_rejected) ... ok
+test_profile_strips_ipv6_and_preserves_no_hooks (test_admin.TestAdmin.test_profile_strips_ipv6_and_preserves_no_hooks) ... ok
+test_active_and_symlink_work_not_deleted (test_core.TestCore.test_active_and_symlink_work_not_deleted) ... skipped 'Linux-flock/Symlink-Abwehr benoetigt Linux'
+test_atomic_collision_and_cleanup (test_core.TestCore.test_atomic_collision_and_cleanup) ... ok
+test_current_mullvad_shape (test_core.TestCore.test_current_mullvad_shape) ... ok
+test_dns_cname_and_single_geo (test_core.TestCore.test_dns_cname_and_single_geo) ... ok
+test_failed_probe_never_resolves (test_core.TestCore.test_failed_probe_never_resolves) ... ok
+test_fallback_exactly_three_plus_one (test_core.TestCore.test_fallback_exactly_three_plus_one) ... ok
+test_info_memory_released_but_retry_file_preserved (test_core.TestCore.test_info_memory_released_but_retry_file_preserved) ... ok
+test_ip_change_blocks (test_core.TestCore.test_ip_change_blocks) ... ok
+test_live_output_is_visible_without_retained_copy (test_core.TestCore.test_live_output_is_visible_without_retained_copy) ... ok
+test_metadata_values_not_only_names (test_core.TestCore.test_metadata_values_not_only_names) ... ok
+test_native_exit_timeout_and_no_shell (test_core.TestCore.test_native_exit_timeout_and_no_shell) ... ok
+test_network_process_failure_is_fatal (test_core.TestCore.test_network_process_failure_is_fatal) ... ok
+test_policy_and_missing_country (test_core.TestCore.test_policy_and_missing_country) ... ok
+test_postcheck_blocks_publication (test_core.TestCore.test_postcheck_blocks_publication) ... ok
+test_preview_protects_order_and_passes_only_names (test_core.TestCore.test_preview_protects_order_and_passes_only_names) ... ok
+test_probe_hard_deadline_exit_and_empty_file (test_core.TestCore.test_probe_hard_deadline_exit_and_empty_file) ... ok
+test_queue_semantics (test_core.TestCore.test_queue_semantics) ... FEHLER: ID=SIMULATED; EXIT_CODE=4; MESSAGE=Fehler
+FEHLER: ID=SIMULATED; EXIT_CODE=5; MESSAGE=Fehler
+FEHLER: ID=SIMULATED; EXIT_CODE=2; MESSAGE=Netzfehler
+ok
+test_retry_is_fresh_and_headers (test_core.TestCore.test_retry_is_fresh_and_headers) ... ok
+test_stream_loss_rejected (test_core.TestCore.test_stream_loss_rejected) ... ok
+test_unicode_and_shell_characters (test_core.TestCore.test_unicode_and_shell_characters) ... ok
+test_url_input (test_core.TestCore.test_url_input) ... ok
+test_voe_fixture_and_redirect_restriction (test_core.TestCore.test_voe_fixture_and_redirect_restriction) ... ok
+test_direct_and_hls_real_local_transfers (test_local_media.TestMedia.test_direct_and_hls_real_local_transfers) ... ok
+test_local_valid_broken_queue (test_local_media.TestMedia.test_local_valid_broken_queue) ... FEHLER: ID=LINK_RESOLUTION_FAILED; EXIT_CODE=4; MESSAGE=Link nicht aufloesbar (yt-dlp Exit=1, Timeout=False): ERROR: [generic] does-not-exist: Unable to download webpage: HTTP Error 404: File not found (caused by <HTTPError 404: File not found>)
+
+null
+ok
+test_mp4_mkv_avi_remux (test_local_media.TestMedia.test_mp4_mkv_avi_remux) ... ok
+test_parallel_publication (test_local_media.TestMedia.test_parallel_publication) ... ok
+test_subtitles_attachments_extra_video_and_bad_tags (test_local_media.TestMedia.test_subtitles_attachments_extra_video_and_bad_tags) ... ok
+test_help_needs_no_root_or_network (test_start.TestStart.test_help_needs_no_root_or_network) ... ok
+test_root_is_refused_before_sudo (test_start.TestStart.test_root_is_refused_before_sudo) ... ok
+test_user_arguments_stay_separate_and_guarded (test_start.TestStart.test_user_arguments_stay_separate_and_guarded) ... ok
+
+----------------------------------------------------------------------
+Ran 33 tests in 35.951s
+
+OK (skipped=1)
+Arbeitsordner bereinigt: 1 (älter als 24 Stunden).
+DNS: sichtbar rekursiver Ausgang: 1.1.1.1
+DNS: IP 1.1.1.1 |  | Proton | Quelle ipapi.co
+Status-Fallback: Quelle ipapi.co (Mullvad nach drei Versuchen unbrauchbar).
+Status-Fallback: Quelle ipapi.co (Mullvad nach drei Versuchen unbrauchbar).
+WARNUNG: Transfer fehlgeschlagen; einmal frisch ohne HTTP-Chunks/parallele Fragmente.
+Test: IP 1.1.1.1 | NL | Proton | Quelle test
+IPv6: im gesamten Download-Namespace deaktiviert (all/default/lo/wg0 geprueft); kein IPv6-Pfad in diesem Namespace. Host-Netz nicht beurteilt.
+Test: IP 1.1.1.1 | Germany | Proton | Quelle am.i.mullvad.net
+Test: IP 1.1.1.1 | France | Vodafone Proton | Quelle am.i.mullvad.net
+Name: Test
+WARNUNG: Transfer fehlgeschlagen; einmal frisch ohne HTTP-Chunks/parallele Fragmente.

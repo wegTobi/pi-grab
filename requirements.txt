@@ -1,0 +1,5 @@
+# Minimaler yt-dlp-Kern: keine automatischen JS-Runtime-/Remote-Komponenten.
+yt-dlp==2026.10.26
+beautifulsoup4==4.14.3
+soupsieve==4.1
+typing_extensions==4.16.0
